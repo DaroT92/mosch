@@ -1,0 +1,1239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Ms+Madi&family=Road+Rage&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*HEADER */
+
+/*header{
+    background-color: #353535; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+header nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+
+} 
+
+header nav li a  {
+    text-decoration:none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+} 
+
+header a img {
+    
+    width: 150px;
+
+
+} 
+*/
+.logo{
+    width: 200px;
+}
+
+
+/* HERO*/
+.hero {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    background-image:url(../img/banner_hero.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero h1 {
+    width: 50%;
+    font-family: "Bowlby One";
+    font-weight: 900;
+    font-size: 6.25vw;
+    line-height: 6.5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 30px;
+} 
+
+.hero a  {
+    font-family: "Montserrat";
+    font-weight:700;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+
+    
+} 
+
+/* ABOUT*/
+.about  {
+    height: 100vh;
+    
+    background-image: url(../img/fondo_papel_arrugado.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about div {
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about h2 {
+    font-family: "Bowlby One";
+    font-weight: 900;
+    font-size: 5vw;
+    line-height: 5.125vw;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+    .about div p {
+        font-family: "Montserrat";
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+.about a  {
+    font-family: "Montserrat";
+    font-weight:700;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    }
+
+/* seccion de nosostros*/
+
+    .nosotros {
+        height: 100vh;
+        background-image: url(../img/fondo_hamburguesas.png);
+        /*display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Dos columnas iguales */
+        align-items: center; /* Centrar el contenido verticalmente */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .nosotros div {
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+   /*display: flex;
+   justify-content: left;
+    align-items: center;
+    flex-direction: column;*/
+    grid-column: 2 / 5; /* El contenido ocupará la primera columna */
+
+    }
+
+    .nosotros h1 {
+        width: 50%;
+        color: white;
+        text-align: left;
+        font-family: "Bowlby One";
+        font-weight: 900;
+        font-size: 9vw;
+         line-height:8vw;
+        }
+
+    .nosotros h2 {
+        width: 50%;
+        font-family: "Bowlby One";
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        color: white;
+        text-align: left;
+        margin-bottom: 25px;
+    } 
+
+    .nosotros p {
+        width: 50%;
+        font-family: "Montserrat";
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        color: white;
+        text-align: left;
+    }
+
+    .historia {
+        height: auto;
+        margin-bottom:20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        background-image: url(../img/concrete_seamless.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .historia div {
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 20px;
+    
+    }
+    
+    .historia img {
+        width: 50%;
+        height: auto;
+        margin-right: 100px;
+    }
+    
+    .historia h2{
+        font-family: "Bowlby One";
+        font-weight: 900;
+        font-size: 5vw;
+         line-height: 78px;
+         margin-bottom: 20px;
+        }
+    
+    .historia div p {
+            margin-bottom: 20px;
+            font-family: "Montserrat";
+            font-size: 15px;
+        }
+    
+
+
+        .pilares{
+            height: auto;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+
+        .pilares h2{
+            font-family: "Bowlby One";
+            font-weight: 900;
+            font-size: 70px;
+             line-height: 78px;
+             margin-bottom: 20px;
+             margin-top: 50px;
+             text-align: center;
+        }
+        .pilares p{
+            height: 110px;
+            margin-bottom: 20px;
+            font-family: "Montserrat";
+            font-size: 18px;
+            text-align: center;
+        }
+
+
+
+        .pilares div img{
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .pilares .cartas{
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 70px;
+         
+            align-items: center;
+            flex-wrap: wrap;
+
+          }
+
+          .pilares .cartas div {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 10px;
+          }
+
+          .pilares .cartas h3{
+            font-family: "Bowlby One";
+            font-weight: 900;
+            font-size: 50px;
+
+
+          }
+        
+
+/* DESTACADOS*/
+
+
+
+.destacados {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/concrete_seamless.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.destacados h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destacados  a {
+    font-family: "Montserrat";
+    font-weight:400;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+} 
+
+.destacados .productos{
+display: flex;
+justify-content: space-between; 
+align-items: center;
+flex-wrap: wrap;
+
+
+} 
+
+.destacados .productos div{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+   /* border: 1px solid gray;*/
+    background-color: white;
+} 
+
+.destacados div img  {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+} 
+
+.destacados div h3  {
+    margin-bottom: 10px;
+    font-size: 20px;
+} 
+.destacados div p  {
+    font-size: 15px;
+    margin-bottom: 20px;
+} 
+
+
+
+/* FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+footer div a img  {
+    width: 50px;
+
+
+}
+
+/* PAGINA DE MENU----------------------------------------*/
+
+/* INTRO*/
+.intro-menu  {
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-image: url(../img/hero-menu.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.intro-menu h2 {
+    font-family: "Bowlby One";
+    width: 70%;
+    font-weight: 900;
+    font-size: 9vw;
+    line-height: 10vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-menu p {
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: center;
+    width:50%;
+}
+
+.intro-menu a  {
+    font-family: "Montserrat";
+    font-weight:700;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+
+    
+} 
+
+/* BURGERS*/
+
+.burgers  {
+    height: auto;
+    background-image: url(../img/fondo_papel_arrugado.png);
+    background-position: center;
+    background-repeat:repeat;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.burgers  h2 {
+
+    font-family:"Bowlby One";
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.burgers .items {
+
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    flex-direction: column;
+   
+    
+}
+
+
+.burgers .items h3{
+
+font-family:"Bowlby One" ;
+width: 50%;
+font-size: 70px;
+line-height: 74px;
+}
+
+
+.burgers .items .item1 {
+
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.burgers .items .item1 div {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+	flex-direction: column;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+/*.burgers .items .item1 img{
+   margin-right: 80px;
+
+}*/
+
+.burgers .items .item2 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+    mix-blend-mode: multiply; 
+
+    padding: 20px;
+}
+
+.burgers .items h3{
+    hyphens: auto;
+}
+  
+
+.burgers .items .item2 div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+	flex-direction: column;
+	
+}
+
+.burgers .items .item3 div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+	flex-direction: column;
+}
+
+
+/*.burgers .items .item2 {
+
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}*/
+
+.burgers .items .item3 {
+
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.items img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.burgers h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.burgers .items p  {
+    font-size: 15px;
+    margin-bottom: 20px;
+	width: 50%;
+} 
+
+.burgers  a {
+    font-family: "Montserrat";
+    font-weight:400;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+} 
+
+
+/* OTRAS OPCIONES*/
+
+.otras-opciones {
+    height: auto;
+    margin-bottom:20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/concrete_seamless.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.otras-opciones h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.otras-opciones p {
+    width: 80%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 18px;
+
+}
+
+.otras-opciones a {
+    font-family: "Montserrat";
+    font-weight:400;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+} 
+
+.otras-opciones .productos{
+display: flex;
+justify-content: center; 
+align-items: center;
+flex-wrap: wrap;
+
+
+} 
+
+.otras-opciones .productos div{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+   /* border: 1px solid gray;*/
+    background-color: white;
+} 
+
+.otras-opciones div img  {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+} 
+
+.otras-opciones div h3  {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+} 
+.otras-opciones div p  {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+/* pagina de contacto*/
+
+.contacto_formulario{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+    padding-top:60px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+   
+}
+
+.contacto_formulario div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 20px;
+
+    padding-right: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.contacto_formulario div h2{
+    font-family:"Bowlby One" ;
+    font-size: 70px;
+    line-height: 74px;
+    color: white;
+    max-width: 700px;
+}
+
+
+
+.contacto_formulario div p{
+    margin-bottom: 17px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-align: left;
+    max-width:500px;
+}
+
+.contacto_formulario label{
+    color: white;
+}
+
+.form-group input  {
+   width: 400px;
+   height: 40px;
+   border-radius: 7px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+.correo input{
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.mensaje textarea{
+    width: 400px;
+    height:  100px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.enviar-contacto input {
+   width: 100%;
+    font-family: "Montserrat";
+    font-weight:400;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.reservas{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px;
+    padding-bottom: 60px;
+    background-image: url(../img/hero-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+.reservas div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.reservas h2{
+    font-family:"Bowlby One" ;
+    font-size: 70px;
+    line-height: 74px;
+    color:white;
+    max-width: 700px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.reservas p {
+    margin-bottom: 17px;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-align: left;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hora{
+    width: 400px;
+    height:  40px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.formulario-reservas{
+background-image: url(../img/fondo_papel_arrugado.png);
+padding: 40px;
+border-radius: 7px;
+
+}
+
+.quienes-somos{
+    height: 100vh;
+    background-image: url(../img/hero-menu.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.quienes-somos h1{
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-weight: 900;
+    font-size: 9vw;
+    line-height:8vw;
+}
+
+.quienes-somos div{
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+   justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quienes-somos div p{
+    width: 50%;
+    font-family: "Montserrat";
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-align: center;
+}
+
+/*responsive*/
+
+@media (max-width: 626px) {
+    .hero h1 {
+        font-size: 9vw;
+        line-height: 9.3vw;
+    }
+
+    .pilares h2{
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+@media(max-width:900px){
+    .about div {
+        width: 100%;
+        margin-right: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        }
+    .about img {
+        display: none;
+    }
+    .about div{
+      padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .about h2{
+        font-size: 38px;
+        line-height: 42px;
+        text-align: center;
+        text-align: left;
+    }
+
+    .about div p {
+        font-size: 16px;
+    }
+
+    .historia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .historia div {
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .historia img{
+        width: 80%;
+        height: 400px;
+        margin:0px;
+        object-fit: cover;
+    }
+
+    .burgers{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .burgers .items h3{
+        font-size: 40px;
+        line-height: 44px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .items img {
+        display: none;
+    }
+
+    .burgers .items .item1 div{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .burgers .items .item2 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+
+    .burgers .items .item3 div{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .burgers .items p{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+    
+}
+
+@media(max-width:960px){
+
+    .destacados .productos div{
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        margin: 10px;
+       /* border: 1px solid gray;*/
+        background-color: white;
+    } 
+
+    .destacados .productos{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        flex-wrap: wrap;   
+        padding-left: 140px;   
+        padding-right: 140px;
+        } 
+}
+
+@media(max-width:700px){
+    .nosotros {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .intro-menu h2{
+        width: 100%;
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .intro-menu p{
+        width: 100%;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nosotros div {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        margin-top: 30px;
+
+    
+        }
+
+        .nosotros h2 {
+            width: 100%;
+            font-size: 40px;
+
+        } 
+
+        .nosotros p {
+            width: 100%;
+            font-size: 16px;
+         
+        }
+
+        .historia div h2 {
+            width:100% ;
+            font-size: 40px;
+            line-height: 44px;
+        
+        } 
+
+        .map-container{
+            width: 100%;
+        }
+
+
+}
+
+@media(max-width:500px){
+    .quienes-somos h1{
+        font-size: 60px;
+        line-height: 50px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .quienes-somos div p {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .burgers  h2{
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .contacto_formulario div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+       
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .form-group input  {
+        width: 100%;
+   
+     }
+     
+     .correo input{
+         width: 100%;
+
+     }
+     
+     .mensaje textarea{
+         width: 100%;
+         height:  100px;
+         border-radius: 7px;
+         padding: 10px;
+         margin-bottom: 20px;
+         resize: none;
+     }
+     .contacto_formulario div h2{
+        font-size: 40px;
+        line-height: 44px;
+     }
+
+     .formulario-reservas .form-group{
+        width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+
+     .formulario-reservas{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+     }
+
+     .formulario-reservas .form-group input{
+        width: 100%;
+     }
+
+     .hora{
+        width: 100%;
+    }
+
+    .reservas h2{
+        font-size: 30PX;
+        line-height: 35px;
+   
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .reservas div{
+        width: 100%;
+        text-align: center;
+    }
+    .reservas p{
+        width: 100%;
+        text-align: center;
+    }
+     
+
+
+}
