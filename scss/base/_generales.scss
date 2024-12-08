@@ -1,0 +1,38 @@
+// Importación de fuentes
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Ms+Madi&family=Road+Rage&display=swap');
+
+// Reset general
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.boton{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+.titulo-burger{
+
+        font-family:"Bowlby One" ;
+        width: 50%;
+        font-size: 70px;
+        line-height: 74px;
+}
+
+.imagen-burger{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
