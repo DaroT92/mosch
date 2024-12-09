@@ -33,6 +33,10 @@ body {
   object-fit: cover;
 }
 
+.contacto_formulario label {
+  color: white;
+}
+
 .logo {
   width: 200px;
 }
@@ -278,10 +282,9 @@ body {
 }
 .pilares .cartas {
   display: flex;
-  justify-content: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .pilares .cartas div {
   width: 300px;
@@ -491,6 +494,151 @@ body {
   text-align: center;
 }
 
+.contacto_formulario {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1C1C;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  padding-top: 30;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contacto_formulario div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-right: 20px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.contacto_formulario div h2 {
+  font-family: "Bowlby One";
+  font-size: 70px;
+  line-height: 74px;
+  color: white;
+  max-width: 700px;
+}
+.contacto_formulario div p {
+  margin-bottom: 17px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 17px;
+  text-align: left;
+  max-width: 500px;
+}
+.contacto_formulario div .contact-form .form-group input {
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contacto_formulario div .correo input {
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contacto_formulario div .mensaje textarea {
+  width: 400px;
+  height: 100px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.contacto_formulario div .enviar-contacto input {
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.reservas {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../img/hero-menu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-wrap: wrap;
+}
+.reservas div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.reservas div h2 {
+  font-family: "Bowlby One";
+  font-size: 70px;
+  line-height: 74px;
+  color: white;
+  max-width: 700px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.reservas div p {
+  margin-bottom: 17px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 17px;
+  text-align: left;
+  width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.reservas .formulario-reservas {
+  background-image: url(../img/fondo_papel_arrugado.png);
+  padding: 40px;
+  border-radius: 7px;
+}
+.reservas .formulario-reservas .form-reserva .form-group input {
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.reservas .formulario-reservas .form-reserva .form-group .hora {
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.reservas .formulario-reservas .form-reserva .enviar-contacto input {
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 400;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -505,6 +653,358 @@ footer h2 {
 }
 footer div a img {
   width: 50px;
+}
+
+@media (max-width: 960px) {
+  .destacados .productos div {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+    /* border: 1px solid gray;*/
+    background-color: white;
+  }
+  .destacados .productos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 900px) {
+  .about div {
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .about img {
+    display: none;
+  }
+  .about div {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about h2 {
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+    text-align: left;
+  }
+  .about div p {
+    font-size: 16px;
+  }
+  .historia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .historia div {
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .historia img {
+    width: 80%;
+    height: 400px;
+    margin: 0px;
+    object-fit: cover;
+  }
+  .burgers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .burgers .items h3 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .items img {
+    display: none;
+  }
+  .burgers .items .item1 div {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+  .burgers .items .item2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+  .burgers .items .item3 div {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+  .burgers .items .item1 div p {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .burgers .items .item2 div p {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .burgers .items .item3 div p {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .nosotros {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro-menu h2 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .intro-menu p {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nosotros div {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+  }
+  .nosotros div h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .nosotros div p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .historia div h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .map-container {
+    width: 100%;
+  }
+}
+@media (max-width: 626px) {
+  .hero h1 {
+    font-size: 9vw;
+    line-height: 9.3vw;
+  }
+  .pilares h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+@media (max-width: 500px) {
+  .quienes-somos h1 {
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+  }
+  .quienes-somos div p {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .burgers h2 {
+    font-size: 35px;
+    line-height: 39px;
+  }
+  .contacto_formulario div {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    width: 300px;
+  }
+  .form-group input {
+    width: 300px;
+  }
+  .correo input {
+    width: 300px;
+  }
+  .mensaje textarea {
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: none;
+  }
+  .contacto_formulario div h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .formulario-reservas .form-group {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .formulario-reservas {
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .formulario-reservas .form-group input {
+    width: 300px;
+  }
+  .hora {
+    width: 300px;
+  }
+  .reservas h2 {
+    font-size: 30PX;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .reservas div {
+    width: 100%;
+    text-align: center;
+  }
+  .reservas p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 451px) {
+  .burgers .items {
+    margin: 0px;
+  }
+  .burgers .items h3 {
+    font-size: 30px;
+    line-height: 34px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .burgers .items .item1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+  }
+  .burgers .items .item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+  }
+  .burgers .items .item3 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+  }
+  .burgers .items .item1 div p {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .burgers .items .item2 div p {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .burgers .items .item3 div p {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contacto_formulario div .contact-form .form-group input {
+    width: 300px;
+  }
+  .contacto_formulario div .correo input {
+    width: 300px;
+  }
+  .contacto_formulario div .mensaje textarea {
+    width: 300px;
+  }
+  .reservas div h2 {
+    font-size: 50px;
+    line-height: 54px;
+  }
+  .reservas div p {
+    width: 300px;
+  }
+  .reservas .formulario-reservas {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .reservas .formulario-reservas .form-reserva .form-group input {
+    width: 300px;
+  }
+  .reservas .formulario-reservas .form-reserva .form-group .hora {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

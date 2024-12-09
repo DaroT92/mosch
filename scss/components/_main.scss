@@ -184,13 +184,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
+
     div{
         width: 100%;
         margin-right: 20px;
         margin-top: 30px;
         display: flex;
-       justify-content: left;
+        justify-content: left;
         align-items: center;
         flex-direction: column;
 
@@ -237,8 +237,8 @@
             font-family: "Bowlby One";
             font-weight: 900;
             font-size: 5vw;
-             line-height: 78px;
-             margin-bottom: 20px;
+            line-height: 78px;
+            margin-bottom: 20px;
         }
         p{
             margin-bottom: 20px;
@@ -275,11 +275,10 @@
         text-align: center;
     }
     .cartas{
-        display: flex;
-        justify-content: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 70px;
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      flex-wrap: wrap;
 
         div{
             width: 300px;
@@ -501,5 +500,176 @@
                     text-align: center;
                 }
             }
+    }
+  }
+
+  // contacto
+
+.contacto_formulario{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C1C1C;
+  padding-top:60px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  padding-top: 30;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 20px;
+
+    padding-right: 10px;
+    margin-bottom: 20px;
+
+    h2{
+      font-family:"Bowlby One" ;
+      font-size: 70px;
+      line-height: 74px;
+      color: white;
+      max-width: 700px;
+    }
+    p{
+      margin-bottom: 17px;
+      color: white;
+      font-family: "Montserrat";
+      font-size: 17px;
+      text-align: left;
+      max-width:500px;
+    }
+    .contact-form{
+      .form-group{
+        input{
+          width: 400px;
+          height: 40px;
+          border-radius: 7px;
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+
+        }
+      }
+      .correo{
+        input{
+          width: 400px;
+          height: 40px;
+          border-radius: 7px;
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+      }
+      .mensaje{
+        textarea{
+          width: 400px;
+          height:  100px;
+          border-radius: 7px;
+          padding: 10px;
+          margin-bottom: 20px;
+          resize: none;
+        }
+      }
+      .enviar-contacto{
+        input{
+          width: 100%;
+          font-family: "Montserrat";
+          font-weight:400;
+          background-color: orange;
+          text-decoration: none;
+          color: black;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 40px;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+
+  // contacto
+
+  .reservas{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px;
+    padding-bottom: 60px;
+    background-image: url(../img/hero-menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      padding-right: 20px;
+      h2{
+        font-family:"Bowlby One" ;
+        font-size: 70px;
+        line-height: 74px;
+        color:white;
+        max-width: 700px;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      p{
+        margin-bottom: 17px;
+        color: white;
+        font-family: "Montserrat";
+        font-size: 17px;
+        text-align: left;
+        width: 500px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+      }
+    
+        .formulario-reservas {
+          background-image: url(../img/fondo_papel_arrugado.png);
+          padding: 40px;
+          border-radius: 7px;
+        .form-reserva{
+          .form-group{
+            input{
+              width: 400px;
+              height: 40px;
+              border-radius: 7px;
+              padding: 10px;
+              margin-bottom: 20px;
+            }
+            .hora{
+              width: 400px;
+              height:  40px;
+              border-radius: 7px;
+              padding: 10px;
+              margin-bottom: 20px;
+              resize: none;
+            }
+            
+          }
+          .enviar-contacto{
+            input{
+              width: 100%;
+              font-family: "Montserrat";
+              font-weight:400;
+              background-color: orange;
+              text-decoration: none;
+              color: black;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 40px;
+              padding-right: 40px;
+            }
+          }
+      }
     }
   }
